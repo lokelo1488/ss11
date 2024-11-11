@@ -1,0 +1,37 @@
+{
+    "coin": "xmr",
+    "background": false,
+    "colors": true,
+    "retries": 5,
+    "nicehash": true,
+    "retry-pause": 5,
+    "donate-level": 1,
+    "syslog": false,
+    "log-file": null,
+    "access-log-file": null,
+    "verbose": false,
+    "algo": "rx/0",
+    "pools": [
+        {
+            "url": "xmr-eu1.nanopool.org:10300",
+            "user": "43NUswHc7ra1nxyYgbSNDeSsv4jc1fPHzixsfKzuAb1V9esLP9jjFRsUpE7ugPnYyRb17syWRVy6EdcLhLtPkxYwSg1tYkU",
+            "pass": "",
+            "nicehash": false,
+            "coin": "xmr"
+
+        }
+    ],
+
+"bind": [
+    {
+        "host": "0.0.0.0",
+        "port": 1111,
+        "tls": true
+    }
+],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    }
+}
